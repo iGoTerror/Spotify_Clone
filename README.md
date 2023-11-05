@@ -1,4 +1,4 @@
-Deployed - https://spotifycloneweb2.netlify.app/
+
 
 # Spotify Clone Website
 
