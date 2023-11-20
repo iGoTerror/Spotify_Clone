@@ -178,11 +178,14 @@ a{
 
 .card{
     background-color: #232323;
-    width: 150px;
+    width: 165px;
     border-radius: 0.5rem;
     padding: 1rem;
     margin-left: 1.25rem;
     margin-bottom: 1.25rem;
+}
+.card:hover{
+    box-shadow: 8px 8px 10px black;
 }
 
 .cards-container{
@@ -236,6 +239,7 @@ padding: 1rem;
    
 
 }
+
 .banger img{
     display: flex;
     align-items: center;

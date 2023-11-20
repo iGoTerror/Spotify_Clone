@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify - Web Player: Music for Everyone</title>
-    <link rel="icon" href="asssets/logo.png">
+    <link rel="icon" href="assets/logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -105,9 +105,9 @@
                         <p class="card-title">Wonder Boy</p>
                         <p class="card-info"><a href="#">Bella , Rohit Gaira</a></p>
                     </div>
-                    <div class="card">
-                        <img src="assets/gun.webp" class="card-img">
-                        <p class="card-title">Gunehgar</p>
+                    <div class="card" id="punyaCard">
+                        <img src="assets/punya.jpeg" class="card-img">
+                        <p class="card-title">Punya Paap</p>
                         <p class="card-info"><a href="#"><a href="#">Divine</a></a></p>
                     </div>
                     <div class="card">
@@ -196,5 +196,13 @@
             </div>
         </div>
     </div>
+
+    <script>
+        // Add an event listener to the card
+        document.getElementById('punyaCard').addEventListener('click', function() {
+            // Navigate to index2.html when the card is clicked
+            window.location.href = 'punyaPage.html';
+        });
+    </script>
 </body>
 </html>
