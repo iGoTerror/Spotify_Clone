@@ -120,9 +120,9 @@
                         <p class="card-title">The Box</p>
                         <p class="card-info"><a href="#">Robby Ricch</a></p>
                     </div>
-                    <div class="card">
+                    <div class="card" id="diffCard">
                         <img src="assets/aleemark.jpeg" class="card-img">
-                        <p class="card-title">Living In The City</p>
+                        <p class="card-title">Diffrent Phase</p>
                         <p class="card-info"><a href="#">aleemark , Umair</a></p>
                     </div>
                     <div class="card">
@@ -203,6 +203,14 @@
             // Navigate to index2.html when the card is clicked
             window.location.href = 'punyaPage.html';
         });
+        // Add an event listener to the card
+        document.getElementById('diffCard').addEventListener('click', function() {
+            // Navigate to diff#phase.html when the card is clicked
+            window.location.href = 'dpPage.html';
+        });
     </script>
+
+
+
 </body>
 </html>
