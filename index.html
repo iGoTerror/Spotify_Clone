@@ -125,7 +125,7 @@
                         <p class="card-title">Diffrent Phase</p>
                         <p class="card-info"><a href="#">aleemark , Umair</a></p>
                     </div>
-                    <div class="card">
+                    <div class="card" id="utpCard">
                         <img src="assets/Travis_Scott_-_Utopia.png" class="card-img">
                         <p class="card-title">UTOPIA</p>
                         <p class="card-info"><a href="#">Travis Scott</a></p>
@@ -213,6 +213,11 @@
         document.getElementById('diffCard').addEventListener('click', function() {
             // Navigate to diff#phase.html when the card is clicked
             window.location.href = 'dpPage.html';
+        });
+         // Add an event listener to the card
+         document.getElementById('utpCard').addEventListener('click', function() {
+            // Navigate to diff#phase.html when the card is clicked
+            window.location.href = 'utpPage.html';
         });
     </script>
 
