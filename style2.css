@@ -20,16 +20,17 @@ body{
     border-radius: 1rem;    /*16px */
 }
 
-.main-content{
-     background-color: #121212; 
+/* .main-content{
+    background-color: #121212; 
     height: 100vh;
-    width: 1050px;
+    width: 100%;
     margin-right: 0.5rem;
-    border-radius: 1rem;    /*16px */
+    border-radius: 1rem;   
     flex: 1;
     overflow: auto;
     padding: 0 2.5rem 0 2.5rem;
-}
+} */
+
 
 .sidebar2{
     background-color: #121212; 
@@ -327,6 +328,11 @@ p , h1 {
 
 .Sm a{
 padding: 0.2rem;
+opacity: 0.5;
+}
+.Sm a:hover{
+    opacity: 1;
+    transition: 0.3s ease;
 }
 .Sm{
     margin-left: 12rem;
@@ -443,19 +449,42 @@ padding: 0.2rem;
     /* opacity: 0.5rem; */
 }
 
+@media only screen and (max-width: 1200px) {
+    .main-content {
+        width: 50vw;
+    }
+
+    .sidebar2 {
+        display: none; 
+    }
+}
+
+.main-content {
+    background-color: #121212;
+    height: 100vh;
+    width: 100%;
+    margin-right: 0.5rem;
+    border-radius: 1rem;
+    flex: 1;
+    
+    overflow-x: hidden;
+    padding: 0 2.5rem 0 2.5rem;
+}
 
 
 
 /* Media queries for smaller screens */
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
     .main-content {
-        width: 100%;
+        width: 50vw;
     }
 
     .sidebar2 {
-        display: none; /* or adjust as needed */
+        display: none; 
     }
-}
+} */
+
+
 
 @media only screen and (max-width: 1450px) {
    .controller-icon{
