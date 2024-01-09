@@ -70,7 +70,7 @@ body{
     background-color: #302f2f;
     border-radius:.75rem;
     margin:0.75rem 0 1rem 0 ;
-    padding:0.75rem 1rem;
+    padding:0.7rem 1rem;
     width: 22.5rem;
 }
 
@@ -91,15 +91,28 @@ body{
 }
 
 .queue-list{
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
     font-size: x-large;
     font-weight: 600;
 }
 
-.queue-list .list-item{
-    height: 2.75rem;
+.list-item  {
+    height: 2.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: .25rem;
+    width: 98%;
+    border-radius: .6rem;
+
+}
+.list-item:hover{
+    box-shadow: 0 0 5px white ;
+}
+ .lt-img {
+    height: 3rem;
+    border-radius: .6rem;
+    margin-right:2rem ;
+
 }
 
 a{
@@ -200,7 +213,7 @@ a{
 }
 
 .sticky-nav{
-    background-color: #121212;
+    background-color:black;
     position:sticky;
     top:0;
     display: flex;
@@ -208,6 +221,8 @@ a{
     align-items: center;
     padding: 0.5rem 0 0.5rem 0;
     z-index: 10;
+    margin-top: 0.5rem;
+    border-radius: 0.9rem;
 }
 
 .sticky-nav-icons {
@@ -227,7 +242,7 @@ a{
 
 .dark-badge{
     background-color: black;
-    color: #fff;
+    color: white;
 }
 
 .punya-image{
@@ -263,9 +278,9 @@ p , h1 {
 
 .playlist{
     display: grid;
-    grid-template-rows: repeat(10, 1fr);
+    /* grid-template-rows: repeat(10, 1fr); */
     grid-template-columns: repeat(10, 1fr);
-    grid-gap: 3rem; 
+    grid-gap: 4rem; 
 }
 
 
@@ -334,9 +349,7 @@ opacity: 0.5;
     opacity: 1;
     transition: 0.3s ease;
 }
-.Sm{
-    margin-left: 12rem;
-}
+
 
 .music-player{
     display: flex;
@@ -468,7 +481,7 @@ opacity: 0.5;
     flex: 1;
     
     overflow-x: hidden;
-    padding: 0 2.5rem 0 2.5rem;
+    padding: 0 1.5rem 0 1.5rem;
 }
 
 
@@ -535,9 +548,7 @@ opacity: 0.5;
 
     }
     .Sm{
-        margin-left: 0;
         font-size: large;
     }
-
 
 
