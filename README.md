@@ -2,7 +2,9 @@
 
 # Spotify Clone Website 
 
-Link - spotifycloneweb2.netlify.app
+
+Link - <a href="spotifycloneweb2.netlify.app">spotifycloneweb</a>
+
 
 This is a README file for the Spotify Clone Website, which provides a landing page HTML template for a Spotify-like web player. You can use this template as a starting point for your own Spotify clone project on GitHub.
 
